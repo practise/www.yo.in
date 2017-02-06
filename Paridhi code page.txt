@@ -1,0 +1,2029 @@
+
+<html>
+<head>
+	
+	<!-- Meta parts -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#fd625e">
+	<link rel="icon" size="192x192" href="logo.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:url" content="msitmegatronix.com" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Techno-management festival Paridhi 2016" />
+	<meta property="og:description" content="Techno management festival of Meghnad Saha Institue Of Technology" />
+	<meta property="og:image" content="img/logo.png" />
+	<meta name="revisit-after" content="3 days">
+	<meta name="description" content="The Annual Techno Management Festival Of Meghnad Saha Institute Of Technology" />
+	<meta name="keywords" content="Paridhi, Paridhi 2016, Meghnad Saha Institute Of Technology, MSIT, Megatronix, Techfest, Msit TechFest, Msit Megatronix, Kolkata, Meghnad Saha" />
+	<meta name="author" content="Dipayan Ghosh">
+	<title>Paridhi 2016</title>
+	
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+	<!-- css imports -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/typeit.min.css">
+	<link rel="stylesheet" href="css/hexagons.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/bubble.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+	<link rel="stylesheet" href="dist/css/material-photo-gallery.css">
+	<link rel="stylesheet" href="css/demo.css">
+	<link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="css/color.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/form-elements.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+	
+	
+	<!-- JS imports -->
+	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.sticky.js"></script>
+	<script src="js/typeit.min.js"></script>
+	<script src="js/script_menu.js"></script>
+	<script src="dist/js/material-photo-gallery.js"></script>
+	<script src="js/smoothscroll.js"></script>
+	<script src="assets/js/jquery.backstretch.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.3.0/snap.svg-min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	
+
+	
+	
+	
+	<!--text imports-->
+	<link href='https://fonts.googleapis.com/css?family=Monoton' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Josefin+Slab:700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lora:400italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lobster+Two:400italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,300' rel='stylesheet' type='text/css'>
+
+
+<style>
+body{
+				background: #1e1e1e;
+			}
+			
+			.socket{
+				width: 200px;
+				height: 200px;
+				position: absolute;
+				left: 50%;
+				margin-left: -100px;
+				top: 50%;
+				margin-top: -100px;
+			}
+			
+			.hex-brick{
+			  background: #414B4C;
+			  width: 30px;
+			  height: 17px;
+			  position: absolute;
+			  top: 5px;
+        animation-name: fade;
+				animation-duration: 2s;
+				animation-iteration-count: infinite;
+				-webkit-animation-name: fade;
+				-webkit-animation-duration: 2s;
+				-webkit-animation-iteration-count: infinite;
+			}
+			
+			.h2{
+				transform: rotate(60deg);
+				-webkit-transform: rotate(60deg);
+			}
+			
+			.h3{
+				transform: rotate(-60deg);
+				-webkit-transform: rotate(-60deg);
+			}
+			
+			.gel{
+				height: 30px;
+				width: 30px;	
+				transition: all .3s;
+				-webkit-transition: all .3s;
+				position: absolute;
+        top: 50%;
+        left: 50%;
+			}
+			
+			.center-gel{
+				margin-left: -15px;
+				margin-top: -15px;
+				
+				animation-name: pulse;
+				animation-duration: 2s;
+				animation-iteration-count: infinite;
+				-webkit-animation-name: pulse;
+				-webkit-animation-duration: 2s;
+				-webkit-animation-iteration-count: infinite;
+			}
+			
+			.c1{
+				margin-left: -47px;
+				margin-top: -15px;
+			}
+			
+			.c2{
+				margin-left: -31px;
+				margin-top: -43px;
+			}
+			
+			.c3{
+				margin-left: 1px;
+				margin-top: -43px;
+			}
+			
+			.c4{
+				margin-left: 17px;
+				margin-top: -15px;
+			}
+			.c5{
+				margin-left: -31px;
+				margin-top: 13px;
+			}
+			
+			.c6{
+				margin-left: 1px;
+				margin-top: 13px;
+			}
+			
+			.c7{
+				margin-left: -63px;
+				margin-top: -43px;
+			}
+			
+			.c8{
+				margin-left: 33px;
+				margin-top: -43px;
+			}
+			
+			.c9{
+				margin-left: -15px;
+				margin-top: 41px;
+			}
+			
+			.c10{
+				margin-left: -63px;
+				margin-top: 13px;
+			}
+			
+			.c11{
+				margin-left: 33px;
+				margin-top: 13px;
+			}
+			
+			.c12{
+				margin-left: -15px;
+				margin-top: -71px;
+			}
+			
+			.c13{
+				margin-left: -47px;
+				margin-top: -71px;
+			}
+			
+			.c14{
+				margin-left: 17px;
+				margin-top: -71px;
+			}
+			
+			.c15{
+				margin-left: -47px;
+				margin-top: 41px;
+			}
+			
+			.c16{
+				margin-left: 17px;
+				margin-top: 41px;
+			}
+			
+			.c17{
+				margin-left: -79px;
+				margin-top: -15px;
+			}
+			
+			.c18{
+				margin-left: 49px;
+				margin-top: -15px;
+			}
+			
+			.c19{
+				margin-left: -63px;
+				margin-top: -99px;
+			}
+			
+			.c20{
+				margin-left: 33px;
+				margin-top: -99px;
+			}
+			
+			.c21{
+				margin-left: 1px;
+				margin-top: -99px;
+			}
+			
+			.c22{
+				margin-left: -31px;
+				margin-top: -99px;
+			}
+			
+			.c23{
+				margin-left: -63px;
+				margin-top: 69px;
+			}
+			
+			.c24{
+				margin-left: 33px;
+				margin-top: 69px;
+			}
+			
+			.c25{
+				margin-left: 1px;
+				margin-top: 69px;
+			}
+			
+			.c26{
+				margin-left: -31px;
+				margin-top: 69px;
+			}
+			
+			.c27{
+				margin-left: -79px;
+				margin-top: -15px;
+			}
+			
+			.c28{
+				margin-left: -95px;
+				margin-top: -43px;
+			}
+			
+			.c29{
+				margin-left: -95px;
+				margin-top: 13px;
+			}
+			
+			.c30{
+				margin-left: 49px;
+				margin-top: 41px;
+			}
+			
+			.c31{
+				margin-left: -79px;
+				margin-top: -71px;
+			}
+			
+			.c32{
+				margin-left: -111px;
+				margin-top: -15px;
+			}
+			
+			.c33{
+				margin-left: 65px;
+				margin-top: -43px;
+			}
+			
+			.c34{
+				margin-left: 65px;
+				margin-top: 13px;
+			}
+			
+			.c35{
+				margin-left: -79px;
+				margin-top: 41px;
+			}
+			
+			.c36{
+				margin-left: 49px;
+				margin-top: -71px;
+			}
+			
+			.c37{
+				margin-left: 81px;
+				margin-top: -15px;
+			}
+			
+			.r1{
+				animation-name: pulse;
+				animation-duration: 2s;
+				animation-iteration-count: infinite;
+				animation-delay: .2s;
+				-webkit-animation-name: pulse;
+				-webkit-animation-duration: 2s;
+				-webkit-animation-iteration-count: infinite;
+				-webkit-animation-delay: .2s;
+			}
+			
+			.r2{
+				animation-name: pulse;
+				animation-duration: 2s;
+				animation-iteration-count: infinite;
+				animation-delay: .4s;
+				-webkit-animation-name: pulse;
+				-webkit-animation-duration: 2s;
+				-webkit-animation-iteration-count: infinite;
+				-webkit-animation-delay: .4s;
+			}
+			
+			.r3{
+				animation-name: pulse;
+				animation-duration: 2s;
+				animation-iteration-count: infinite;
+				animation-delay: .6s;
+				-webkit-animation-name: pulse;
+				-webkit-animation-duration: 2s;
+				-webkit-animation-iteration-count: infinite;
+				-webkit-animation-delay: .6s;
+			}
+			
+			.r1 > .hex-brick{
+				animation-name: fade;
+				animation-duration: 2s;
+				animation-iteration-count: infinite;
+				animation-delay: .2s;
+				-webkit-animation-name: fade;
+				-webkit-animation-duration: 2s;
+				-webkit-animation-iteration-count: infinite;
+				-webkit-animation-delay: .2s;
+			}
+			
+			.r2 > .hex-brick{
+				animation-name: fade;
+				animation-duration: 2s;
+				animation-iteration-count: infinite;
+				animation-delay: .4s;
+				-webkit-animation-name: fade;
+				-webkit-animation-duration: 2s;
+				-webkit-animation-iteration-count: infinite;
+				-webkit-animation-delay: .4s;
+			}
+			
+			.r3 > .hex-brick{
+				animation-name: fade;
+				animation-duration: 2s;
+				animation-iteration-count: infinite;
+				animation-delay: .6s;
+				-webkit-animation-name: fade;
+				-webkit-animation-duration: 2s;
+				-webkit-animation-iteration-count: infinite;
+				-webkit-animation-delay: .6s;
+			}
+			
+			
+			@keyframes pulse{
+				0%{
+					-webkit-transform: scale(1);
+					transform: scale(1);
+				}
+				
+				50%{
+					-webkit-transform: scale(0.01);
+					transform: scale(0.01);
+				}
+				
+				100%{
+					-webkit-transform: scale(1);
+					transform: scale(1);
+				}
+			}
+			
+			@keyframes fade{
+				0%{
+					background: #ABF8FF;
+				}
+				
+				50%{
+					background: #90BBBF;
+				}
+				
+				100%{
+					background: #ABF8FF;
+				}
+			}
+			
+			@-webkit-keyframes pulse{
+				0%{
+					-webkit-transform: scale(1);
+					transform: scale(1);
+				}
+				
+				50%{
+					-webkit-transform: scale(0.01);
+					transform: scale(0.01);
+				}
+				
+				100%{
+					-webkit-transform: scale(1);
+					transform: scale(1);
+				}
+			}
+			
+			@-webkit-keyframes fade{
+				0%{
+					background: #ABF8FF;
+				}
+				
+				50%{
+					background: #389CA6;
+				}
+				
+				100%{
+					background: #ABF8FF;
+				}
+			}
+
+.loader{
+	position:fixed;
+	width:100%;
+	height:100%;
+	background-color:#414B4C;
+	z-index:5;
+}
+
+
+</style>
+		
+</head>
+
+<body>
+      <div class="loader">
+		<div class="socket">
+			<div class="gel center-gel">
+				<div class="hex-brick h1"></div>
+				<div class="hex-brick h2"></div>
+				<div class="hex-brick h3"></div>
+			</div>
+			<div class="gel c1 r1">
+				<div class="hex-brick h1"></div>
+				<div class="hex-brick h2"></div>
+				<div class="hex-brick h3"></div>
+			</div>
+			<div class="gel c2 r1">
+				<div class="hex-brick h1"></div>
+				<div class="hex-brick h2"></div>
+				<div class="hex-brick h3"></div>
+			</div>
+			<div class="gel c3 r1">
+				<div class="hex-brick h1"></div>
+				<div class="hex-brick h2"></div>
+				<div class="hex-brick h3"></div>
+			</div>
+			<div class="gel c4 r1">
+				<div class="hex-brick h1"></div>
+				<div class="hex-brick h2"></div>
+				<div class="hex-brick h3"></div>
+			</div>
+			<div class="gel c5 r1">
+				<div class="hex-brick h1"></div>
+				<div class="hex-brick h2"></div>
+				<div class="hex-brick h3"></div>
+			</div>
+			<div class="gel c6 r1">
+				<div class="hex-brick h1"></div>
+				<div class="hex-brick h2"></div>
+				<div class="hex-brick h3"></div>
+			</div>
+			
+			<div class="gel c7 r2">
+				<div class="hex-brick h1"></div>
+				<div class="hex-brick h2"></div>
+				<div class="hex-brick h3"></div>
+			</div>
+			
+			<div class="gel c8 r2">
+				<div class="hex-brick h1"></div>
+				<div class="hex-brick h2"></div>
+				<div class="hex-brick h3"></div>
+			</div>
+			<div class="gel c9 r2">
+				<div class="hex-brick h1"></div>
+				<div class="hex-brick h2"></div>
+				<div class="hex-brick h3"></div>
+			</div>
+			<div class="gel c10 r2">
+				<div class="hex-brick h1"></div>
+				<div class="hex-brick h2"></div>
+				<div class="hex-brick h3"></div>
+			</div>
+			<div class="gel c11 r2">
+				<div class="hex-brick h1"></div>
+				<div class="hex-brick h2"></div>
+				<div class="hex-brick h3"></div>
+			</div>
+			<div class="gel c12 r2">
+				<div class="hex-brick h1"></div>
+				<div class="hex-brick h2"></div>
+				<div class="hex-brick h3"></div>
+			</div>
+			<div class="gel c13 r2">
+				<div class="hex-brick h1"></div>
+				<div class="hex-brick h2"></div>
+				<div class="hex-brick h3"></div>
+			</div>
+			<div class="gel c14 r2">
+				<div class="hex-brick h1"></div>
+				<div class="hex-brick h2"></div>
+				<div class="hex-brick h3"></div>
+			</div>
+			<div class="gel c15 r2">
+				<div class="hex-brick h1"></div>
+				<div class="hex-brick h2"></div>
+				<div class="hex-brick h3"></div>
+			</div>
+			<div class="gel c16 r2">
+				<div class="hex-brick h1"></div>
+				<div class="hex-brick h2"></div>
+				<div class="hex-brick h3"></div>
+			</div>
+			<div class="gel c17 r2">
+				<div class="hex-brick h1"></div>
+				<div class="hex-brick h2"></div>
+				<div class="hex-brick h3"></div>
+			</div>
+			<div class="gel c18 r2">
+				<div class="hex-brick h1"></div>
+				<div class="hex-brick h2"></div>
+				<div class="hex-brick h3"></div>
+			</div>
+			<div class="gel c19 r3">
+				<div class="hex-brick h1"></div>
+				<div class="hex-brick h2"></div>
+				<div class="hex-brick h3"></div>
+			</div>
+			<div class="gel c20 r3">
+				<div class="hex-brick h1"></div>
+				<div class="hex-brick h2"></div>
+				<div class="hex-brick h3"></div>
+			</div>
+			<div class="gel c21 r3">
+				<div class="hex-brick h1"></div>
+				<div class="hex-brick h2"></div>
+				<div class="hex-brick h3"></div>
+			</div>
+			<div class="gel c22 r3">
+				<div class="hex-brick h1"></div>
+				<div class="hex-brick h2"></div>
+				<div class="hex-brick h3"></div>
+			</div>
+			<div class="gel c23 r3">
+				<div class="hex-brick h1"></div>
+				<div class="hex-brick h2"></div>
+				<div class="hex-brick h3"></div>
+			</div>
+			<div class="gel c24 r3">
+				<div class="hex-brick h1"></div>
+				<div class="hex-brick h2"></div>
+				<div class="hex-brick h3"></div>
+			</div>
+			<div class="gel c25 r3">
+				<div class="hex-brick h1"></div>
+				<div class="hex-brick h2"></div>
+				<div class="hex-brick h3"></div>
+			</div>
+			<div class="gel c26 r3">
+				<div class="hex-brick h1"></div>
+				<div class="hex-brick h2"></div>
+				<div class="hex-brick h3"></div>
+			</div>
+			<div class="gel c28 r3">
+				<div class="hex-brick h1"></div>
+				<div class="hex-brick h2"></div>
+				<div class="hex-brick h3"></div>
+			</div>
+			<div class="gel c29 r3">
+				<div class="hex-brick h1"></div>
+				<div class="hex-brick h2"></div>
+				<div class="hex-brick h3"></div>
+			</div>
+			<div class="gel c30 r3">
+				<div class="hex-brick h1"></div>
+				<div class="hex-brick h2"></div>
+				<div class="hex-brick h3"></div>
+			</div>
+			<div class="gel c31 r3">
+				<div class="hex-brick h1"></div>
+				<div class="hex-brick h2"></div>
+				<div class="hex-brick h3"></div>
+			</div>
+			<div class="gel c32 r3">
+				<div class="hex-brick h1"></div>
+				<div class="hex-brick h2"></div>
+				<div class="hex-brick h3"></div>
+			</div>
+			<div class="gel c33 r3">
+				<div class="hex-brick h1"></div>
+				<div class="hex-brick h2"></div>
+				<div class="hex-brick h3"></div>
+			</div>
+			<div class="gel c34 r3">
+				<div class="hex-brick h1"></div>
+				<div class="hex-brick h2"></div>
+				<div class="hex-brick h3"></div>
+			</div>
+			<div class="gel c35 r3">
+				<div class="hex-brick h1"></div>
+				<div class="hex-brick h2"></div>
+				<div class="hex-brick h3"></div>
+			</div>
+			<div class="gel c36 r3">
+				<div class="hex-brick h1"></div>
+				<div class="hex-brick h2"></div>
+				<div class="hex-brick h3"></div>
+			</div>
+			<div class="gel c37 r3">
+				<div class="hex-brick h1"></div>
+				<div class="hex-brick h2"></div>
+				<div class="hex-brick h3"></div>
+			</div>
+			
+		</div>
+         
+	</div>
+
+	 <div id="slide1">
+		<div class="jumbotron container holder">
+					<div class="container">
+					
+						<center><h1><span class="heading">Pa <span class="changer">r</span>id<span class="changer_another">h</span>i  <span class="year">2</span><span class="year changer">0</span><span class="year">1</span><span class="year">6</span></span></h1></center>
+                                                <center><p><span class="heading sub_heading" style="text-transform:none;">in association with TTYOU.</span></p></center>
+						<center><img src="img/logo.png" class="img-responsive" alt="logo"></img></center>
+						<center><h4><span class="heading sub_heading typeit-box" data-typeit-whattotype="The annual techno-management festival of Meghnad Saha Institute Of Technology." data-typeit-speed="80"></span></h4></center>
+						
+					</div>
+		</div>
+		<div id="container">
+			<div class="bubble-wrap">
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				<div class="bubble"></div>
+				
+			<center><h3><span class="heading sub_heading">19<span class="styler">th</span> , 20<span class="styler">th</span> & 21<span class="styler">st</span> <span style="text-transform:none;">February</span>, 2016</h3></center></br>
+			<br><br>
+			<center><a  href="#slide2"><img id="enter" src="img/down.png" class="img-responsive" alt="Enter"></img></a></center>
+		</div>
+	</div>
+</div>
+		
+		<div class="modal fade" id="modal-register" tabindex="-1" role="dialog" aria-labelledby="modal-register-label" aria-hidden="true">
+        	<div class="modal-dialog">
+        		<div class="modal-content">
+        			
+        			<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal">
+        					<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+        				</button>
+        				<h3 class="modal-title" id="modal-register-label">Sign up now</h3>
+        				<p>Fill in the form below to get registered:</p>
+        			</div>
+        			
+        			<div class="modal-body">
+        				
+	                    <form role="form" action="signup.php" method="post" class="registration-form">
+	                    	<div class="form-group">
+	                    		<label class="sr-only" for="form-first-name">Name</label>
+	                        	<input type="text" name="name" placeholder="Enter your name..." class="form-first-name form-control" id="form-first-name">
+	                        </div>
+	                        <div class="form-group">
+	                        	<label class="sr-only" for="form-last-name">College</label>
+	                        	<input type="text" name="college" placeholder="Enter your college..." class="form-last-name form-control" id="form-last-name">
+	                        </div>
+	                        <div class="form-group">
+	                        	<label class="sr-only" for="form-email">Email</label>
+	                        	<input type="email" name="email" placeholder="Enter your email..." class="form-email form-control" id="form-email">
+	                        </div>
+	                        <div class="form-group">
+	                        	<label class="sr-only" for="form-last-name">Phone Number</label>
+	                        	<input type="text" name="number" placeholder="Enter your number..." class="form-last-name form-control" id="form-last-name" onKeyPress="return isNumberKey(event)" minlength="10" maxlength="10">
+	                        </div>
+	                        <button name="submit" type="submit" class="btn">Sign me up!</button>
+	                    </form>
+	                    
+        			</div>
+        			
+        		</div>
+        	</div>
+        </div>
+
+		
+		
+		
+		
+      <div class="jumbotron navigation">
+			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-2 -2 504 504" id="menu" style="transform-origin: 50% 50% 0px; transform: matrix3d(-0.397975, -0.917396, 0, 0, 0.917396, -0.397975, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); touch-action: none; -webkit-user-select: none;">
+				<style>#menu{display:block;margin:0 auto;}a{cursor:pointer;outline:none;}.item .sector{transition:all .1s linear;fill:#fff;stroke:#111; font-family: 'Lobster Two', cursive;}.item:hover .sector,.item:focus .sector{fill:#360036;}.menu-trigger{fill:red;pointer-events:auto;}.menu-trigger:hover,.menu-trigger:focus{cursor:pointer;}symbol{overflow:visible;} svg a:hover {text-decoration: none;}</style>
+					<g id="symbolsContainer">    
+						<symbol class="icon icon-" id="icon-1" viewBox="0 0 40 40">
+							<g id="icomoon-ignore"></g>
+							<path fill="#360036" d="M16 9.226l-8-6.21-8 6.21v-2.532l8-6.21 8 6.21zM14 9v6h-4v-4h-4v4h-4v-6l6-4.5z"></path>
+							<text x="-10" y="40" fill="white" font-size="1.5em">Home</text>
+						</symbol>
+						<symbol class="icon icon-" id="icon-2" viewBox="0 0 40 40">
+							<g id="icomoon-ignore"></g>
+							<path fill="#360036" d="M5 3c0-1.657 1.343-3 3-3s3 1.343 3 3c0 1.657-1.343 3-3 3s-3-1.343-3-3zM12.001 7h-0.553l-3.111 6.316 1.163-5.816-1.5-1.5-1.5 1.5 1.163 5.816-3.111-6.316h-0.554c-1.999 0-1.999 1.344-1.999 3v5h12v-5c0-1.656 0-3-1.999-3z"></path>
+							<text x="-10" y="40" fill="white" font-size="1.5em">About <tspan x="12" y="60">Us</tspan></text>
+						</symbol>
+						<symbol class="icon icon-" id="icon-3" viewBox="0 0 40 40">
+							<g id="icomoon-ignore"></g>
+							<path fill="#360036" d="M14.59 9.535c-0.839-1.454-0.335-3.317 1.127-4.164l-1.572-2.723c-0.449 0.263-0.972 0.414-1.529 0.414-1.68 0-3.042-1.371-3.042-3.062h-3.145c0.004 0.522-0.126 1.051-0.406 1.535-0.839 1.454-2.706 1.948-4.17 1.106l-1.572 2.723c0.453 0.257 0.845 0.634 1.123 1.117 0.838 1.452 0.336 3.311-1.12 4.16l1.572 2.723c0.448-0.261 0.967-0.41 1.522-0.41 1.675 0 3.033 1.362 3.042 3.046h3.145c-0.001-0.517 0.129-1.040 0.406-1.519 0.838-1.452 2.7-1.947 4.163-1.11l1.572-2.723c-0.45-0.257-0.839-0.633-1.116-1.113zM8 11.24c-1.789 0-3.24-1.45-3.24-3.24s1.45-3.24 3.24-3.24c1.789 0 3.24 1.45 3.24 3.24s-1.45 3.24-3.24 3.24z"></path>
+							<text x="-10" y="40" fill="white" font-size="1.5em">Events</text>
+						</symbol>
+						<symbol class="icon icon-" id="icon-4" viewBox="0 0 40 40">
+							<g id="icomoon-ignore"></g>
+							<path fill="#360036" d="M10.293 11.707l-3.293-3.293v-4.414h2v3.586l2.707 2.707zM8 0c-4.418 0-8 3.582-8 8s3.582 8 8 8 8-3.582 8-8-3.582-8-8-8zM8 14c-3.314 0-6-2.686-6-6s2.686-6 6-6c3.314 0 6 2.686 6 6s-2.686 6-6 6z"></path>
+							<text x="-20" y="40" fill="white" font-size="1.5em">Schedule</text>
+						</symbol>	
+						<symbol class="icon icon-" id="icon-5" viewBox="0 0 40 40">
+							<g id="icomoon-ignore"></g>
+							<path fill="#360036" d="M12 12.041v-0.825c1.102-0.621 2-2.168 2-3.716 0-2.485 0-4.5-3-4.5s-3 2.015-3 4.5c0 1.548 0.898 3.095 2 3.716v0.825c-3.392 0.277-6 1.944-6 3.959h14c0-2.015-2.608-3.682-6-3.959z"></path>
+							<path fill="#360036" d="M5.112 12.427c0.864-0.565 1.939-0.994 3.122-1.256-0.235-0.278-0.449-0.588-0.633-0.922-0.475-0.863-0.726-1.813-0.726-2.748 0-1.344 0-2.614 0.478-3.653 0.464-1.008 1.299-1.633 2.488-1.867-0.264-1.195-0.968-1.98-2.841-1.98-3 0-3 2.015-3 4.5 0 1.548 0.898 3.095 2 3.716v0.825c-3.392 0.277-6 1.944-6 3.959h4.359c0.227-0.202 0.478-0.393 0.753-0.573z"></path>
+							<text x="-20" y="40" fill="white" font-size="1.5em">Sponsor</text>
+						</symbol>
+						<symbol class="icon icon-" id="icon-6" viewBox="0 0 40 40">
+							<g id="icomoon-ignore"></g>
+							<path fill="#360036" d="M4.75 9.5c0 1.795 1.455 3.25 3.25 3.25s3.25-1.455 3.25-3.25-1.455-3.25-3.25-3.25-3.25 1.455-3.25 3.25zM15 4h-3.5c-0.25-1-0.5-2-1.5-2h-4c-1 0-1.25 1-1.5 2h-3.5c-0.55 0-1 0.45-1 1v9c0 0.55 0.45 1 1 1h14c0.55 0 1-0.45 1-1v-9c0-0.55-0.45-1-1-1zM8 13.938c-2.451 0-4.438-1.987-4.438-4.438s1.987-4.438 4.438-4.438c2.451 0 4.438 1.987 4.438 4.438s-1.987 4.438-4.438 4.438zM15 7h-2v-1h2v1z"></path>
+							<text x="-20" y="40" fill="white" font-size="1.5em">Moments</text>
+						</symbol>
+						<symbol class="icon icon-" id="icon-7" viewBox="0 0 40 40">
+							<g id="icomoon-ignore"></g>
+							<path fill="#360036" d="M15.802 2.102c-1.73-1.311-4.393-2.094-7.124-2.094-3.377 0-6.129 1.179-7.549 3.235-0.667 0.965-1.036 2.109-1.097 3.398-0.054 1.148 0.139 2.418 0.573 3.784 1.482-4.444 5.622-7.923 10.395-7.923 0 0-4.466 1.175-7.274 4.816-0.002 0.002-0.039 0.048-0.103 0.136-0.564 0.754-1.055 1.612-1.423 2.583-0.623 1.482-1.2 3.515-1.2 5.965h2c0 0-0.304-1.91 0.224-4.106 0.873 0.118 1.654 0.177 2.357 0.177 1.839 0 3.146-0.398 4.115-1.252 0.868-0.765 1.347-1.794 1.854-2.882 0.774-1.663 1.651-3.547 4.198-5.002 0.146-0.083 0.24-0.234 0.251-0.402s-0.063-0.329-0.197-0.431z"></path>
+							<text x="-10" y="40" fill="white" font-size="1.5em">Team</text>
+						</symbol>	
+						<symbol class="icon icon-" id="icon-8" viewBox="0 0 40 40">
+							<g id="icomoon-ignore"></g>
+							<path fill="#360036" d="M11 10c-1 1-1 2-2 2s-2-1-3-2-2-2-2-3 1-1 2-2-2-4-3-4-3 3-3 3c0 2 2.055 6.055 4 8s6 4 8 4c0 0 3-2 3-3s-3-4-4-3z"></path>
+							<text x="-20" y="40" fill="white" font-size="1.5em">Contact</text>
+						</symbol>
+
+					</g>
+					<g id="itemsContainer">   
+						<a class="item" id="item-1" role="link" tabindex="0" xlink:href="#slide1" xlink:title="" xlink:target="_parent" transform="matrix(1,0,0,1,0,0)" data-svg-origin="250 250" style=""><path fill="none" stroke="#fff" stroke-width="1" class="sector" d="M250,250 l250,0 A250,250 0 0,0 426.7766952966369,73.22330470336314 z"></path><use xlink:href="#icon-1" width="43" height="43" x="374.47296142578125" y="168.0360107421875" transform="rotate(67.5 395.97296142578125 189.5360107421875)"></use></a>
+						<a class="item" id="item-2" role="link" tabindex="0" xlink:href="#slide2" xlink:title="" xlink:target="_parent" transform="matrix(0.7071,-0.7071,0.7071,0.7071,-103.55339059327378,249.99999999999997)" data-svg-origin="250 250" style=""><path fill="none" stroke="#111" stroke-width="1" class="sector" d="M250,250 l250,0 A250,250 0 0,0 426.7766952966369,73.22330470336314 z"></path><use xlink:href="#icon-2" width="43" height="43" x="374.47296142578125" y="168.0360107421875" transform="rotate(67.5 395.97296142578125 189.5360107421875)"></use></a>
+						<a class="item" id="item-3" role="link" tabindex="0" xlink:href="#slide3" xlink:title="" xlink:target="_parent" transform="matrix(0,-1,1,0,0,500)" data-svg-origin="250 250" style=""><path fill="none" stroke="#111" stroke-width="1" class="sector" d="M250,250 l250,0 A250,250 0 0,0 426.7766952966369,73.22330470336314 z"></path><use xlink:href="#icon-3" width="43" height="43" x="374.47296142578125" y="168.0360107421875" transform="rotate(67.5 395.97296142578125 189.5360107421875)"></use></a>
+						<a class="item" id="item-4" role="link" tabindex="0" xlink:href="#slide4" xlink:title="" xlink:target="_parent" transform="matrix(-0.7071,-0.7071,0.7071,-0.7071,249.99999999999997,603.5533905932738)" data-svg-origin="250 250" style=""><path fill="none" stroke="#111" stroke-width="1" class="sector" d="M250,250 l250,0 A250,250 0 0,0 426.7766952966369,73.22330470336314 z"></path><use xlink:href="#icon-4" width="43" height="43" x="374.47296142578125" y="168.0360107421875" transform="rotate(67.5 395.97296142578125 189.5360107421875)"></use></a>
+						<a class="item" id="item-5" role="link" tabindex="0" xlink:href="#slide5" xlink:title="" xlink:target="_parent" transform="matrix(-1,0,0,-1,500,500)" data-svg-origin="250 250" style=""><path fill="none" stroke="#111" stroke-width="1" class="sector" d="M250,250 l250,0 A250,250 0 0,0 426.7766952966369,73.22330470336314 z"></path><use xlink:href="#icon-5" width="43" height="43" x="374.47296142578125" y="168.0360107421875" transform="rotate(67.5 395.97296142578125 189.5360107421875)"></use></a>
+						<a class="item" id="item-6" role="link" tabindex="0" xlink:href="#slide6" xlink:title="" xlink:target="_parent" transform="matrix(-0.7071,0.7071,-0.7071,-0.7071,603.5533905932738,250.00000000000006)" data-svg-origin="250 250" style=""><path fill="none" stroke="#111" stroke-width="1" class="sector" d="M250,250 l250,0 A250,250 0 0,0 426.7766952966369,73.22330470336314 z"></path><use xlink:href="#icon-6" width="43" height="43" x="374.47296142578125" y="168.0360107421875" transform="rotate(67.5 395.97296142578125 189.5360107421875)"></use></a>
+						<a class="item" id="item-7" role="link" tabindex="0" xlink:href="#slide7" xlink:title="" xlink:target="_parent" transform="matrix(0,1,-1,0,500.00000000000006,0)" data-svg-origin="250 250" style=""><path fill="none" stroke="#111" stroke-width="1" class="sector" d="M250,250 l250,0 A250,250 0 0,0 426.7766952966369,73.22330470336314 z"></path><use xlink:href="#icon-7" width="43" height="43" x="374.47296142578125" y="168.0360107421875" transform="rotate(67.5 395.97296142578125 189.5360107421875)"></use></a>
+						<a class="item" id="item-8" role="link" tabindex="0" xlink:href="#slide8" xlink:title="" xlink:target="_parent" transform="matrix(0.7071,0.7071,-0.7071,0.7071,250.00000000000009,-103.55339059327378)" data-svg-origin="250 250" style=""><path fill="none" stroke="#111" stroke-width="1" class="sector" d="M250,250 l250,0 A250,250 0 0,0 426.7766952966369,73.22330470336314 z"></path><use xlink:href="#icon-8" width="43" height="43" x="374.47296142578125" y="168.0360107421875" transform="rotate(67.5 395.97296142578125 189.5360107421875)"></use></a>
+					</g>
+					<g id="trigger" class="trigger menu-trigger" role="button">
+						<circle cx="250" cy="250" r="25"></circle>
+						<text id="label" text-anchor="middle" x="250" y="260" fill="#fff" font-size="2.5em">+</text>
+					</g>
+			</svg>
+ <script>
+ var svg = document.getElementById('menu'),
+    itemsContainer = document.getElementById('itemsContainer'),
+    trigger = document.getElementById('trigger'),
+    label = trigger.querySelectorAll('#label')[0],
+    items = Snap(itemsContainer),
+    originalTransform = itemsContainer.getAttribute("transform"),
+    open = false;
+
+//close items
+items.animate({
+    transform: "s0,0,250,250",
+    opacity: 0
+}, .005);
+svg.style.pointerEvents = "none";
+//attach listener
+trigger.addEventListener('click', toggleMenu, false);
+
+//handle click
+function toggleMenu(event) {
+    if (!event) var event = window.event;
+    event.stopPropagation();
+    open = !open;
+
+    if (!open) {
+        items.animate({
+            transform: "s0,0,250,250",
+            opacity: 0
+        }, 400, mina.backin);
+        label.innerHTML = "+";
+        svg.style.pointerEvents = "none";
+    } else {
+        items.animate({
+            transform: originalTransform,
+            opacity: 1
+        }, 1000, mina.elastic);
+        label.innerHTML = "-";
+        svg.style.pointerEvents = "auto";
+    }
+
+}
+
+svg.onclick = function (e) {
+    e.stopPropagation();
+}
+//close the nav when document is clicked
+document.onclick = function () {
+    open = false;
+    items.animate({
+        transform: "s0,0,250,250",
+        opacity: 0
+    }, 400, mina.backin);
+    label.innerHTML = "+";
+    svg.style.pointerEvents = "none";
+};
+ </script>
+
+</div>  
+	
+	<div id="slide2">
+			<div class="jumbotron content_holder">
+					<center><h2 style="width:auto;">A little bit about Paridhi</h2></center>
+					<center><img class="img-responsive" src="img/border1.png"></img></center>
+					
+					<center><h4> &#34Technology is at its best when it brings people together&#34 </h4></center><br>
+					<div class="container"><div class="container" id="content_container"><p>Meghnad Saha Institute of Technology is back with the Fifth Edition of its Annual Techno-management fest, <strong>PARIDHI</strong> organized by the technical wing of the college, MEGATRONIX! </br> We at Megatronix believe that, <span style="text-decoration:italic;">one never changes things by fighting the existing reality; to change something - one must build something which makes the existing model obsolete.</span> Hence this PARIDHI is newer better and bigger! With an all total of <strong>33</strong> events, PARIDHI brings forth an opportunity for students to test themselves against a vast range of challenges. It is an opportunity to not only compete against the toughest teams in the country but also to win exciting prizes after the heart whelming victory<strong>. </br> Megatronix,</strong> the Technical Club of Meghnad Saha Institute of Technology cordially invites each and every one of you to the finest Technical gathering of the season, <strong>PARIDH</strong>I 2016! </br> This season, let us all gather together and feel the essence of technology by applying it in the best way possible. So step out of our comfort zones and put your innovative minds to use. This year, push your limits and be at your competitive best to earn beautiful rewards and memories. So come over and give a tough fight because Harder the Battle, Sweeter the Victory.</p></div></div>
+
+					
+				 </div>
+	
+	</div>
+   
+     <div id="slide3">
+			<div class="jumbotron content_holder">
+
+                   
+                    <center><h2 style="width:auto;">Seminars</h2></center>
+					<center><img class="img-responsive" src="img/border1.png"></img></center></br>
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-12 col-md-12 col-sm-12">
+								
+								<center><h3 style="font-family: 'Goudy Bookletter 1911', serif;"><strong>Entrepreneurship</strong>, A Roadmap to Start-ups.</h3></center>
+								<center><h3 style="font-family: 'Goudy Bookletter 1911', serif;">in association with E-cell, Meghnad Saha Institue Of Technology.</h3></center>
+								<center><a href="workshops/seminar.html"><img class="img img-responsive" src="sponsor/cell.png"></img></a></center>
+							</div>
+						</div>
+					</div>
+
+					<center><h2 style="width:auto;">Events</h2></center>
+					<center><img class="img-responsive" src="img/border1.png"></img></center></br>
+					
+	<ul id="hexGrid">
+            <li class="hex">
+                <a class="hexIn" href="events/event1.html">
+                    <img src="logo/robo-terrain.png" alt="" />
+                    <h1 class="eventHeading">CLASH OF ROBOTS</h1>
+                    <p>TAKESHI’S CASTLE</p>
+                </a>
+            </li>
+            <li class="hex">
+                <a class="hexIn" href="events/event2.html">
+                    <img src="logo/robo-soccer.png" alt="" />
+                    <h1 class="eventHeading">CLASH OF ROBOTS</h1>
+                    <p>COURT STORM</p>
+                </a>
+            </li>
+            <li class="hex">
+                <a class="hexIn" href="events/event3.html">
+                    <img src="logo/robo-carrom.png" alt="" />
+                    <h1 class="eventHeading">CLASH OF ROBOTS</h1>
+                    <p>RICHIE RICH</p>
+                </a>
+            </li>
+            <li class="hex">
+                <a class="hexIn" href="events/bhool.html">
+                    <img src="logo/robo-race.png" alt="" />
+                    <h1 class="eventHeading">CLASH OF ROBOTS</h1>
+                    <p>BHOOL BHULAIYA</p>
+                </a>
+            </li>
+            <li class="hex">
+               <a class="hexIn" href="events/event5.html">
+                   <img src="logo/picking.png" alt="" />
+                    <h1 class="eventHeading">CLASH OF ROBOTS</h1>
+                    <p>FINDING FANNY</p>
+                </a>
+            </li>
+            <li class="hex">
+                <a class="hexIn" href="events/auto.html">
+                    <img src="logo/line.png" alt="" />
+                    <h1>CLASH OF ROBOTS</h1>
+                    <p>AUTO DESTINO</p>
+                </a>
+            </li>
+            <li class="hex">
+                <a class="hexIn" href="events/c_beta.html">
+                    <img src="logo/coding.png" alt="" />
+                    <h1>GAME OF CODES</h1>
+                    <p>SANHITA BETA</p>
+                </a>
+            </li>
+            <li class="hex">
+                <a class="hexIn" href="events/c_pro.html">
+                    <img src="logo/coding_pro.png" alt="" />
+                    <h1>GAME OF CODES</h1>
+                    <p>SANHITA PRO</p>
+                </a>
+            </li>
+            <li class="hex">
+                <a class="hexIn" href="events/android.html">
+                    <img src="logo/android.png" alt="" />
+                    <h1>GAME OF CODES</h1>
+                    <p>MEGADROID</p>
+                </a>
+            </li>
+            <li class="hex">
+                <a class="hexIn" href="events/event10.html">
+                   <img src="logo/hacking.png" alt="" />
+                    <h1>GAME OF CODES</h1>
+                    <p>THE QUEEN’S GAMBIT</p>
+                </a>
+            </li>
+            <li class="hex">
+                <a class="hexIn" href="events/web.html">
+					<img src="logo/web.png" alt="" />
+                    <h1>GAME OF CODES</h1>
+                    <p>WEB-HEAD</p>
+                </a>
+            </li>
+            <li class="hex">
+                <a class="hexIn" href="events/event12.html">
+                    <img src="logo/cs.png" alt="" />
+                    <h1>GAMERS' ZONE</h1>
+                    <p>FIRST BLOOD</p>
+                </a>
+            </li>
+            <li class="hex">
+                <a class="hexIn" href="events/dota.html">
+                    <img src="logo/dota2.png" alt="" />
+                    <h1>GAMERS' ZONE</h1>
+                    <p>DOTA</p>
+                </a>
+            </li>
+            <li class="hex">
+                <a class="hexIn" href="events/event14.html">
+                   <img src="logo/nfs.png" alt="" />
+                    <h1>GAMERS' ZONE</h1>
+                    <p>DEATH RACE</p>
+                </a>
+            </li>
+            <li class="hex">
+                <a class="hexIn" href="events/event15.html">
+                    <img src="logo/fifa.png" alt="" />
+                    <h1>GAMERS' ZONE</h1>
+                    <p>KICK-O-MANIA</p>
+                </a>
+            </li>
+            <li class="hex">
+					<a class="hexIn" href="events/event16.html">
+                    <img src="logo/electrocuted.png" alt="" />
+                    <h1>ELECTROCUTED</h1>
+                    <p>ELECTRO SCRIBBLE</p>
+                </a>
+            </li>
+            <li class="hex">
+                <a class="hexIn" href="events/event17.html">
+                    <img src="logo/electrical1.png" alt="" />
+                     <h1>ELECTROCUTED</h1>
+                    <p>E AS U LIKE</p>
+                </a>
+            </li>
+            <li class="hex">
+                <a class="hexIn" href="events/event18.html">
+                    <img src="logo/quiz.png" alt="" />
+                    <h1>QUIZ</h1>
+                    <p>INQUIZITIVE</p>
+                </a>
+            </li>
+            <li class="hex">
+                <a class="hexIn" href="events/event19.html">
+                    <img src="logo/bridge-making.png" alt="" />
+                    <h1>CIVIL</h1>
+                    <p>SETU BANDHAN</p>
+                </a>
+            </li>
+            <li class="hex">
+                <a class="hexIn" href="events/event20.html">
+                    <img src="logo/township.png" alt="" />
+                    <h1>CIVIL</h1>
+                    <p>ARAMUS</p>
+                </a>
+            </li>
+            <li class="hex">
+                <a class="hexIn" href="events/event21.html">
+                    <img src="logo/photography.png" alt="" />
+                    <h1>PHOTOGRAPHY</h1>
+                    <p>DRISHTI ONSPOT</p>
+                </a>
+            </li>
+           
+            <li class="hex">
+                <a class="hexIn" href="events/event23.html">
+                    <img src="logo/film.png" alt="" />
+                    <h1>PHOTOGRAPHY</h1>
+                    <p>ROLL CAMERA ACTION</p>
+                </a>
+            </li>
+            <li class="hex">
+                <a class="hexIn" href="events/ece.html">
+                    <img src="logo/electronics.png" alt="" />
+                    <h1>Electronics</h1>
+                    <p>ELECTROSTUCK</p>
+                </a>
+            </li>
+            <li class="hex">
+                <a class="hexIn" href="events/event25.html">
+                    <img src="logo/darts.png" alt="" />
+                    <h1>On Spot</h1>
+                    <p>LAKHSYABHED</p>
+                </a>
+            </li>
+			 <li class="hex">
+                <a class="hexIn" href="events/event22.html">
+                    <img src="logo/sudoku.jpg" alt="" />
+                    <h1>On Spot</h1>
+                    <p>BRAIN STORM</p>
+                </a>
+            </li>
+			<li class="hex">
+                <a class="hexIn" href="events/event27.html">
+                    <img src="logo/chess.png" alt="" />
+                    <h1>On Spot</h1>
+                    <p>THE DARK KNIGHT</p>
+                </a>
+            </li>
+            <li class="hex">
+                <a class="hexIn" href="events/carrom.html">
+                    <img src="logo/carrom.png" alt="" />
+                    <h1>On Spot</h1>
+                    <p>BRAWL ON BOARD</p>
+                </a>
+            </li>
+			<li class="hex">
+                 <a class="hexIn" href="events/event32.html">
+                    <img src="logo/splash.png" alt="" />
+                    <h1>On Spot</h1>
+                    <p>SPLASH</p>
+                </a>
+            </li>
+            <li class="hex">
+                <a class="hexIn" href="events/table.html">
+                    <img src="logo/table.png" alt="" />
+                    <h1>On Spot</h1>
+                    <p>HOT SHOT</p>
+                </a>
+            </li>
+            
+            <li class="hex">
+                <a class="hexIn" href="events/event29.html">
+                    <img src="logo/angry.png" alt="" />
+                    <h1>Mini Games</h1>
+                    <p>GAME OF FUN</p>
+                </a>
+            </li>
+            <li class="hex">
+                 <a class="hexIn" href="events/event30.html">
+                   <img src="logo/soch.png" alt="" />
+                    <h1>Business</h1>
+                    <p>SOCH</p>
+                </a>
+            </li>
+			<li class="hex">
+                 <a class="hexIn" href="events/event31.html">
+                    <img src="logo/plan.png" alt="" />
+                    <h1>Business</h1>
+                    <p>B-PLAN</p>
+                </a>
+            </li>
+			
+        </ul>
+	
+		</div>
+	</div>
+
+	
+		
+    <div id="slide4">
+				<div class="jumbotron content_holder">
+					<center><h2 style="width:auto;">Schedule</h2></center>
+					<center><img class="img-responsive" src="img/border1.png"></img></center></br>
+					<div class="container" id="content_container">
+					
+					<center><img class="img img-responsive" src="arena/schedule.png"></img></center>
+				</div>
+			</div>
+	</div>
+
+	<div id="slide5">
+				<div class="jumbotron content_holder">
+					<center><h2 style="width:auto;">Sponsors</h2></center>
+					<center><img class="img-responsive" src="img/border1.png"></img></center></br>
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-12 col-md-12 col-sm-12">
+								<center><h3 style="font-family: 'Goudy Bookletter 1911', serif;"><strong>Ola- </strong> Get a free ride worth Rs. <strong>300</strong> in <strong>OLA</strong>. During your first ride apply code <strong>"PARIDHI"</strong>.</h3></center>
+								<!--<center><h3 style="font-family: 'Goudy Bookletter 1911', serif;"><strong>Show My News- </strong> Download and Register ShowMyNews app before 10th February 2016 to win exciting prizes from this link <strong><a href="http://bit.ly/1JZunRF" target="_blank">http://bit.ly/1JZunRF</a></strong> and <strong>DO NOT UNINSTALL</strong> before <strong>12th February 2016</strong>. Use this link only <strong>:)</strong></h3></center>-->
+
+							</div>
+						</div>
+					</div>
+					<br>
+					<div class="container" id="content_container">
+					<center><h2>Powered By</h2></center>	
+					<div class="container">
+						
+						<div class="row">
+                                                        
+							<div class="col-lg-6 col-md-6 col-sm-6">
+								<center><img class="img img-responsive" src="sponsor/ola.png"></img></center>
+								<center><h3>Official Cab Partner</h3></center>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-6">
+								<center><img class="img img-responsive" src="sponsor/coca.png"></img></center>
+								
+							</div>
+						</div>
+                        <br><br>
+					<center><h2>Our other Partner</h2></center>	
+						<div class="row">
+							
+							
+							<div class="col-lg-4 col-md-4 col-sm-4">
+								<center><a href="http://www.i3indyatechnologies.com/" target="_blank"><img class="img img-responsive" src="sponsor/i3indiya.png"></img></a></center>
+								<center><h3>Workshop Partner</h3></center>
+							</div>
+							
+							<div class="col-lg-4 col-md-4 col-sm-4">
+                                                           <br>
+								<center><img class="img img-responsive" src="sponsor/kynoid.png"></img></center>
+								<center><h3>Autonomous Robotics Partner</h3></center>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-4">
+                                                
+								<center><img class="img img-responsive" src="sponsor/ebay.jpg"></img></center>
+								<center><h3>Goodies Partner</h3></center>
+							</div>
+							
+						</div>
+						<br>
+						<div class="row">
+							<div class="col-lg-4 col-md-4 col-sm-4">
+								<center><a href="http://www.mywbut.com/" target="_blank"><img class="img img-responsive" src="sponsor/wbut.jpg"></img></a></center>
+								<center><h3>Knowledge Partner</h3></center>
+
+							</div>
+							
+							<div class="col-lg-4 col-md-4 col-sm-4">
+								<center><img class="img img-responsive" src="sponsor/merchandise.png"></img></center>
+								<center><h3>Merchandise Partner</h3></center>
+							</div>
+							
+							<div class="col-lg-4 col-md-4 col-sm-4">
+                              <br>
+								<center><img class="img img-responsive" src="sponsor/civil.png"></img></center>
+								
+							</div>
+						
+						</div>
+						<br>
+						<div class="row">
+							<div class="col-lg-4 col-md-4 col-sm-4">
+								<center><img class="img img-responsive" src="sponsor/head.png"></img></center>
+								<center><h3>Ecosystem Partner</h3></center>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-4">
+								<center><img class="img img-responsive" src="sponsor/ttyou.png"></img></center>
+								<center><h3>Media Partner</h3></center>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-4">
+                              <center><h3>Amplified by</h3></center>
+								<center><img class="img img-responsive" src="sponsor/fm.png"></img></center>
+								
+							</div>
+						</div>
+						<br>
+						
+						<center><h2>Gaming Partners</h2></center>
+						<div class="row">
+							<div class="col-lg-4 col-md-4 col-sm-4">
+								<br>
+								<center><img class="img img-responsive" src="sponsor/giga.jpg"></img></center>
+							</div>	
+							<div class="col-lg-4 col-md-4 col-sm-4">
+								<center><img class="img img-responsive" src="sponsor/xtreme.png"></img></center>
+								
+							</div>
+							
+							
+							<div class="col-lg-4 col-md-4 col-sm-4">
+								<center><img class="img img-responsive" src="sponsor/g1.jpg"></img></center>
+								
+							</div>
+									
+						</div>
+						
+						<center><h2>Food Partners</h2></center>
+						<div class="row">
+							<div class="col-lg-4 col-md-4 col-sm-4">
+								<br>
+								
+								<center><img class="img img-responsive" src="sponsor/food.jpg"></img></center>
+							</div>	
+							<div class="col-lg-4 col-md-4 col-sm-4">
+								<center><img class="img img-responsive" src="sponsor/chai.jpg"></img></center>
+							</div>
+							
+							
+							<div class="col-lg-4 col-md-4 col-sm-4">
+							<center><img class="img img-responsive" src="sponsor/dominos.png"></img></center>	
+							</div>
+									
+						</div>
+						<center><h2>Education Partners </h2></center>
+						<div class="row">
+							
+								<div class="col-lg-6. col-md-6 col-sm-6">
+								<center><img class="img img-responsive" src="sponsor/webel.png"></img></center>
+								
+							</div>	
+							<div class="col-lg-6 col-md-6 col-sm-6">
+								<center><img class="img img-responsive" src="sponsor/ims.jpg"></img></center>
+								
+							</div>		
+							
+	
+						</div>
+						<div class="row">
+							<div class="col-lg-6 col-md-6 col-sm-6">
+								<br><br>
+								<center><img class="img img-responsive" src="sponsor/made.jpg"></img></center>
+		<br><br>						
+							</div>
+							<br><br>	
+							<div class="col-lg-6 col-md-6 col-sm-6">
+								<center><img class="img img-responsive" src="sponsor/webtek.png"></img></center>
+								
+							</div>	
+						</div>
+							<br>
+							<br>
+                                                <center><h2>Online Partners</h2></center>
+						<div class="row">
+							
+							<div class="row">
+							
+							<div class="col-lg-6 col-md-6 col-sm-6">
+								<center><img class="img img-responsive" src="sponsor/btechjosh.png"></img></center>
+								
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-6">
+								<center><img class="img img-responsive" src="sponsor/campus.png"></img></center>
+								
+							</div>
+									
+						</div>
+							<div class="col-lg-4 col-md-4 col-sm-4">
+								<center><img class="img img-responsive" src="sponsor/festpav.png"></img></center>
+								
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-4">
+                                                         <br>
+							<center><img class="img img-responsive" src="sponsor/knowafest.jpg"></img></center>
+								
+							</div>	
+							
+							<div class="col-lg-4 col-md-4 col-sm-4">
+								<center><img class="img img-responsive" src="sponsor/markmyfest.png"></img></center>
+								
+							</div>		
+						</div>
+						
+						
+					</div>
+
+							
+					</div>
+				</div>
+	</div>
+	
+	<div id="slide6">
+				<div class="jumbotron content_holder">
+					<center><h2 style="width:auto;">Moments</h2></center>
+					<center><img class="img-responsive" src="img/border1.png"></img></center></br>
+					<div class="container" id="content_container">
+								<div class="m-p-g">
+									<div class="m-p-g__thumbs" data-google-image-layout data-max-height="350">
+										<img src="images/thumbs/1.jpg" data-full="images/1.jpg" class="m-p-g__thumbs-img" />
+										<img src="images/thumbs/2.jpg" data-full="images/2.jpg" class="m-p-g__thumbs-img" />
+										<img src="images/thumbs/3.jpg" data-full="images/3.jpg" class="m-p-g__thumbs-img" />
+										<img src="images/thumbs/4.jpg" data-full="images/4.jpg" class="m-p-g__thumbs-img" />
+										<img src="images/thumbs/5.jpg" data-full="images/5.jpg" class="m-p-g__thumbs-img" />
+										<img src="images/thumbs/6.jpg" data-full="images/6.jpg" class="m-p-g__thumbs-img" />
+										<img src="images/thumbs/7.jpg" data-full="images/7.jpg" class="m-p-g__thumbs-img" />
+										<img src="images/thumbs/8.jpg" data-full="images/8.jpg" class="m-p-g__thumbs-img" />
+										<img src="images/thumbs/9.jpg" data-full="images/9.jpg" class="m-p-g__thumbs-img" />
+										<img src="images/thumbs/10.jpg" data-full="images/10.jpg" class="m-p-g__thumbs-img" />
+										<img src="images/thumbs/11.jpg" data-full="images/11.jpg" class="m-p-g__thumbs-img" />
+										<img src="images/thumbs/12.jpg" data-full="images/12.jpg" class="m-p-g__thumbs-img" />
+										<img src="images/thumbs/13.jpg" data-full="images/13.jpg" class="m-p-g__thumbs-img" />
+										<img src="images/thumbs/14.jpg" data-full="images/14.jpg" class="m-p-g__thumbs-img" />
+									</div>
+
+									<div class="m-p-g__fullscreen"></div>
+								</div>
+							
+					</div>
+				</div>
+	</div>
+	<div id="slide7">
+				<div class="jumbotron content_holder">
+					<center><h2 style="width:auto;">Team</h2></center>
+					<center><img class="img-responsive" src="img/border1.png"></img></center></br>
+					<center><h4> &#34 Meet Our Team&#34 </h4></center><br>
+				<div class="container">
+					<div class="row">
+						
+						<div class="col-lg-12 col-md-12 col-sm-12">
+							<div class="container team_holder ">
+								<div class="container hold">
+									
+									<div class="row">
+										<div class="col-lg-2 col-md-2 col-sm-6">
+											<center><img class="img img-responsive rand" src="member/sen_cod/sweta.jpg"></img></center>
+											<center><h5>Sweta Singh</h5></center>
+											
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-6">
+											<center><img class="img img-responsive rand" src="member/sen_cod/jyoti.jpg"></img></center>
+											<center><h5>Jyoti Jha</h5></center>
+											
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-6">
+											<center><img class="img img-responsive rand" src="member/admin/subh.jpg"></img></center>
+												<center><h5>Subhadeep Sanyal</h5></center>
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-6">
+											<center><img class="img img-responsive rand" src="member/admin/riv.jpg"></img></center>
+												<center><h5>Rishabh Gupta</h5></center>
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-6">
+											<center><img class="img img-responsive rand" src="member/admin/nil.jpg"></img></center>
+												<center><h5>Subhranil Mukherjee</h5></center>
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-6">
+											<center><img class="img img-responsive rand" src="member/admin/arp.jpg"></img></center>
+												<center><h5>Arpit Goyal</h5></center>
+											
+										</div>
+										
+									</div>
+									
+									
+									<div class="row">
+										
+										<div class="col-lg-2 col-md-2 col-sm-6">
+											<center><img class="img img-responsive rand" src="member/sen_cod/sourav.jpg"></img></center>
+											<center><h5>Sourav Das</h5></center>
+											
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-6">
+											<center><img class="img img-responsive rand" src="member/sen_cod/ananya.jpg"></img></center>
+											<center><h5>Anannya Chandra</h5></center>
+											
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-6">
+											<center><img class="img img-responsive rand" src="member/sen_cod/rajat.jpg"></img></center>
+											<center><h5>Rajat Suvra Sengupta</h5></center>
+											
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-6">
+											<center><img class="img img-responsive rand" src="member/sen_cod/pranay.jpg"></img></center>
+											<center><h5>Pranay Dassarma</h5></center>
+											
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-6">
+											<center><img class="img img-responsive rand" src="member/sen_cod/avijeet.jpg"></img></center>
+											<center><h5>Ovijeet Sircar</h5></center>
+											
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-6">
+											<center><img class="img img-responsive rand" src="member/sen_cod/swarnava.jpg"></img></center>
+											<center><h5>Swarnava Sarkar</h5></center>
+											
+										</div>
+									</div>
+									
+									<div class="row">
+										<div class="col-lg-2 col-md-2 col-sm-6">
+											<center><img class="img img-responsive rand" src="member/sen_cod/sreeta.jpg"></img></center>
+											<center><h5>Srita Bandhopadhyay</h5></center>
+											
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-6">
+											<center><img class="img img-responsive rand" src="member/sen_cod/pabitra.jpg"></img></center>
+											<center><h5>Pabitra Pramanik</h5></center>
+											
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-6">
+											<center><img class="img img-responsive rand" src="member/sen_cod/soumavya.jpg"></img></center>
+											<center><h5>Soumabha Chatterjee</h5></center>
+											
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-6">
+											<center><img class="img img-responsive rand" src="member/sen_cod/prachi.jpg"></img></center>
+											<center><h5>Prachi Agarwal</h5></center>
+											
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-6">
+											<center><img class="img img-responsive rand" src="member/tech/rik.jpg"></img></center>
+												<center><h5>Rik Chatterjee</h5></center>
+										</div>
+
+										<div class="col-lg-2 col-md-2 col-sm-6">
+												<center><img class="img img-responsive rand" src="member/tech/arpan.jpg"></img></center>
+												<center><h5>Arpan Chatterjee</h5></center>
+										</div>
+										
+									</div>
+								
+									
+									<div class="row">
+										<div class="col-lg-2 col-md-2 col-sm-6">
+												<center><img class="img img-responsive rand" src="member/tech/dip.jpg"></img></center>
+												<center><h5>Dipayan Ghosh</h5></center>
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-2">
+											<center><img class="img img-responsive rand" src="member/jun_cod/sristi.jpg"></img></center>
+											<center><h5>Shrishti Deepak</h5></center>
+											
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-2">
+											<center><img class="img img-responsive rand" src="member/jun_cod/pra.jpg"></img></center>
+											<center><h5>Pratyusha Biswas</h5></center>
+											
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-2">
+											<center><img class="img img-responsive rand" src="member/jun_cod/subham.jpg"></img></center>
+											<center><h5>Subham Agarwal</h5></center>
+											
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-2">
+											<center><img class="img img-responsive rand" src="member/jun_cod/sk.jpg"></img></center>
+											<center><h5>Sk Aquib</h5></center>
+											
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-2">
+											<center><img class="img img-responsive rand" src="member/jun_cod/sham.jpg"></img></center>
+											<center><h5>Khawaja Md. Shamsh Nizam</h5></center>
+											
+										</div>
+										
+									</div>
+									
+									<div class="row">
+										<div class="col-lg-2 col-md-2 col-sm-2">
+											<center><img class="img img-responsive rand" src="member/jun_cod/sou.jpg"></img></center>
+											<center><h5>Soumyasanta Rakshit</h5></center>
+											
+										</div>
+										
+										<div class="col-lg-2 col-md-2 col-sm-2">
+											<center><img class="img img-responsive rand" src="member/jun_cod/poo.jpg"></img></center>
+											<center><h5>Pooja Ghosh</h5></center>
+											
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-2">
+											<center><img class="img img-responsive rand" src="member/jun_cod/rahul.jpg"></img></center>
+											<center><h5>Rahul Raj</h5></center>
+											
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-2">
+											<center><img class="img img-responsive rand" src="member/jun_cod/aishwa.jpg"></img></center>
+											<center><h5>Aishwarya Mallick</h5></center>
+											
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-2">
+											<center><img class="img img-responsive rand" src="member/jun_cod/sa.jpg"></img></center>
+											<center><h5>Sayandeep Chakraborty</h5></center>
+											
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-2">
+											<center><img class="img img-responsive rand" src="member/jun_cod/ritika.jpg"></img></center>
+											<center><h5>Ritika Rai</h5></center>
+											
+										</div>
+									</div>
+									<div class="row">
+										
+										<div class="col-lg-2 col-md-2 col-sm-2">
+											<center><img class="img img-responsive rand" src="member/jun_cod/sandipan.jpg"></img></center>
+											<center><h5>Sandipan Dhar</h5></center>
+											
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-2">
+											<center><img class="img img-responsive rand" src="member/jun_cod/sourya.jpg"></img></center>
+											<center><h5>Shourjya Sengupta</h5></center>
+											
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-2">
+											<center><img class="img img-responsive rand" src="member/jun_cod/saurav.jpg"></img></center>
+											<center><h5>Saurabh Rai</h5></center>
+											
+										</div>
+										
+										
+										<div class="col-lg-2 col-md-2 col-sm-2">
+											<center><img class="img img-responsive rand" src="member/jun_cod/rohit.jpg"></img></center>
+											<center><h5>Rohit Gupta</h5></center>
+											
+										</div>
+										
+										
+										<div class="col-lg-2 col-md-2 col-sm-2">
+											<center><img class="img img-responsive rand" src="member/jun_cod/sagnik.jpg"></img></center>
+											<center><h5>Sagnik Gupta</h5></center>
+											
+										</div>
+										
+										<div class="col-lg-2 col-md-2 col-sm-2">
+											<center><img class="img img-responsive rand" src="member/jun_cod/sb.jpg"></img></center>
+											<center><h5>Shubham Bera</h5></center>
+											
+										</div>
+										
+										
+									</div>
+									
+									<div class="row">
+										
+										
+										
+										<div class="col-lg-2 col-md-2 col-sm-2">
+											<center><img class="img img-responsive rand" src="member/jun_cod/chandrima.jpg"></img></center>
+											<center><h5>Chandrima Ghatak</h5></center>
+											
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-2">
+											<center><img class="img img-responsive rand" src="member/jun_cod/kumari.jpg"></img></center>
+											<center><h5>Kumari Vishnupriya</h5></center>
+											
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-2">
+											<center><img class="img img-responsive rand" src="member/jun_cod/samarthi.jpg"></img></center>
+											<center><h5>Samarthi Chakravarty</h5></center>
+											
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-2">
+											<center><img class="img img-responsive rand" src="member/jun_cod/neogi.jpg"></img></center>
+											<center><h5>Subhodeep Neogi</h5></center>
+											
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-2">
+											<center><img class="img img-responsive rand" src="member/jun_cod/iqbal.jpg"></img></center>
+											<center><h5>Md. Iqbal Hossain</h5></center>
+											
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-2">
+											<center><img class="img img-responsive rand" src="member/jun_cod/saikat_Das.jpg"></img></center>
+											<center><h5>Saikat Das</h5></center>
+											
+										</div>
+										
+									</div>
+									
+									<div class="row">
+										<div class="col-lg-2 col-md-2 col-sm-2">
+											<center><img class="img img-responsive rand" src="member/jun_cod/faraz.jpg"></img></center>
+											<center><h5>Faraz Ahmed</h5></center>
+											
+										</div>
+										
+										<div class="col-lg-2 col-md-2 col-sm-2">
+											<center><img class="img img-responsive rand" src="member/jun_cod/rs.jpg"></img></center>
+											<center><h5>Rohit Shaw</h5></center>
+											
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-2">
+											<center><img class="img img-responsive rand" src="member/jun_cod/vikrant.jpg"></img></center>
+											<center><h5>Vikrant Rath</h5></center>
+											
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-2">
+											<center><img class="img img-responsive rand" src="member/jun_cod/sahoo.jpg"></img></center>
+											<center><h5>Sayan Sahoo</h5></center>
+											
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-2">
+											<center><img class="img img-responsive rand" src="member/jun_cod/sayan.jpg"></img></center>
+											<center><h5>Sayan Bakuli</h5></center>
+											
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-2">
+											<center><img class="img img-responsive rand" src="member/jun_cod/asis.jpg"></img></center>
+											<center><h5>Ashish Kumar</h5></center>
+											
+										</div>
+										
+										
+										
+									</div>
+									
+									<div class="row">
+										<div class="col-lg-2 col-md-2 col-sm-2">
+											<center><img class="img img-responsive rand" src="member/jun_cod/aharna.jpg"></img></center>
+											<center><h5>Aharna Moullick</h5></center>
+											
+										</div>
+										
+										<div class="col-lg-2 col-md-2 col-sm-2">
+											<center><img class="img img-responsive rand" src="member/jun_cod/sandipan_dey.jpg"></img></center>
+											<center><h5>Sandipan Dey</h5></center>
+											
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-2">
+											<center><img class="img img-responsive rand" src="member/jun_cod/avirup.jpg"></img></center>
+											<center><h5>Avirup Choudhury</h5></center>
+											
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-2">
+											<center><img class="img img-responsive rand" src="member/jun_cod/modak.jpg"></img></center>
+											<center><h5>Sayan Modak</h5></center>
+											
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-2">
+											<center><img class="img img-responsive rand" src="member/jun_cod/souvik_datta.jpg"></img></center>
+											<center><h5>Souvik Dutta</h5></center>
+											
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-2">
+											<center><img class="img img-responsive rand" src="member/jun_cod/prasant.jpeg"></img></center>
+											<center><h5>Prashant Jaiswal</h5></center>
+											
+										</div>
+										
+										
+										
+									</div>
+									
+									<div class="row">
+										<div class="col-lg-2 col-md-2 col-sm-2">
+											<center><img class="img img-responsive rand" src="member/jun_cod/default.png"></img></center>
+											<center><h5>Sourav Bhakta</h5></center>
+											
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-2">
+											<center><img class="img img-responsive rand" src="member/jun_cod/rohan.jpg"></img></center>
+											<center><h5>Rohan Tripathi</h5></center>
+											
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-2">
+											<center><img class="img img-responsive rand" src="member/jun_cod/raj.jpg"></img></center>
+											<center><h5>Rajashree Banerjee</h5></center>
+											
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-2">
+											<center><img class="img img-responsive rand" src="member/jun_cod/rrj.jpg"></img></center>
+											<center><h5>Roy Raj Jyoti</h5></center>
+											
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-2">
+											<center><img class="img img-responsive rand" src="member/jun_cod/ritesh.jpg"></img></center>
+											<center><h5>Ritesh Poddar</h5></center>
+											
+										</div>
+										
+										
+										
+									</div>
+									
+							</div>
+						</div>
+						
+					
+						</div>
+								
+							</div>
+						</div>
+						
+					</div>
+					
+				</div>
+					
+					
+					
+					
+					
+				</div>	
+					
+
+					
+				
+	</div>
+	
+	<div id="slide8">
+				<div class="jumbotron content_holder">
+					<center><h2 style="width:auto;">Reach to us</h2></center>
+					<center><img class="img-responsive" src="img/border1.png"></img></center></br>
+					<center><h4> &#34 Our help desk is always ready to help !&#34 </h4></center><br>
+					<div class="jumbotron holder">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-3 col-md-6 col-sm-12">
+									<div class="container contact_holder">
+										<div class="container image_holder">
+											<br>
+											<center><img src="member/help/subh.jpg"></img></center>
+											<br>
+										</div>
+										<div class="container detail_holder">
+											<center><p>Subhadeep Sanyal</p></center>
+											<center><h4 class="sub_con">subh.sany@gmail.com</h4></center>
+											<center><h4 class="sub_con">8697004338</h4></center>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6 col-sm-12">
+									<div class="container contact_holder">
+										<div class="container image_holder">
+											<br>
+											<center><img src="member/help/riv.jpg"></img></center>
+											<br>
+										</div>
+										<div class="container detail_holder">
+											<center><p>Rishabh Gupta</p></center>
+											<center><h4 class="sub_con">rg906244@gmail.com</h4></center>
+											<center><h4 class="sub_con">9062448819</h4></center>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6 col-sm-12">
+									<div class="container contact_holder">
+										<div class="container image_holder">
+											<br>
+											<center><img src="member/help/nil.jpg"></img></center>
+											<br>
+										</div>
+										<div class="container detail_holder">
+											<center><p>Subhranil Mukherjee</p></center>
+											<center><h6 class="sub_con">subhranil.mukherjee06@gmail.com</h6></center>
+											<center><h4 class="sub_con">9836629465</h4></center>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="container contact_holder">
+										<div class="container image_holder">
+											<br>
+											<center><img src="member/help/arp.jpg"></img></center>
+											<br>
+										</div>
+										<div class="container detail_holder">
+											<center><p>Arpit Goyal</p></center>
+											<center><h4 class="sub_con">arpitgoyal1993@gmail.com</h4></center>
+											<center><h4 class="sub_con">9874921797</h4></center>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							
+						</div>
+						
+						<div class="container"> 
+							<div class="container"> <br>
+							<center><h4>Feel free to send us email !</h4></center><br>
+							<div class="container email_holder">
+								
+								<form class="login" method="post" action="mail.php" onsubmit="return mail_check()">
+									<div class="form-group">
+										<label class="sr-only" for="form-first-name">First name</label>
+										<input type="text" name="mail-name" placeholder="Your name..." class="form-first-name form-control" id="mail-name">
+									</div>
+									<div class="form-group">
+										<label class="sr-only" for="form-last-name">Mobile Number</label>
+										<input type="text" name="mail-number" placeholder="Your mobile number..." class="form-last-name form-control" id="mail-number" onKeyPress="return isNumberKey(event)" minlength="10" maxlength="10">
+									</div>
+									<div class="form-group">
+										<label class="sr-only" for="form-email">Email</label>
+										<input type="text" name="mail-email" placeholder="Email..." class="form-email form-control" id="mail-email">
+									</div>
+									<div class="form-group">
+										<label class="sr-only" for="form-about-yourself">Your query</label>
+										<input type="text" name="mail-problem" placeholder="About your query..." class="form-last-name form-control" id="mail-problem" >
+									</div>
+									
+									<center><button name="mail" type="submit" class="btn">Send mail</button></center>
+								</form>
+							</div>
+						</div>
+						
+						</div>
+					</div>
+				</div>
+	</div>
+	
+	<div id="footer">
+		<div class="container">
+			<a href="https://www.facebook.com/dipayan.ghosh.330" target="_blank"><h3><span style="color:white;float:left;width:auto;">&#169Dipayan Ghosh</span></h3></a>
+			
+				<h2 style="margin-left:5%;float:left;width:auto;padding-left:3%;">
+					<a href="https://www.facebook.com/msitparidhi/?fref=ts" target="_blank"><i class="fa fa-facebook-square" style="float:left;"></i></a>
+				</h2>
+				<h2 style="float:left;width:auto;padding-left:3%;">
+					<a id="colorlink" href="https://www.youtube.com/channel/UCj1Y8yRHrDtDw9Hydcxriig" target="_blank"><i class="fa fa-youtube-square" style="float:left;"></i></a>
+				</h2>
+				<h2 style="float:left;width:auto;padding-left:3%;">
+					<a id="g" href="https://plus.google.com/u/0/103091415761334476463" target="_blank"><i class="fa fa-google-plus-square" style="float:left;"></i></a>
+				</h2>
+				<h2 style="float:left;width:auto;padding-left:3%;">
+					<a id="w" href="https://en.wikipedia.org/wiki/PARIDHI" target="_blank"><i class="fa fa-wikipedia-w" style="float:left;"></i></a>
+				</h2>
+				<h2 style="float:left;width:auto;padding-left:3%;">
+					<a id="t" href="https://twitter.com/megatronixpari1" target="_blank"><i class="fa fa-twitter-square" style="float:left;"></i></a>
+				</h2>
+				<h2 style="float:left;width:auto;padding-left:3%;">
+					<a id="i" href="https://www.instagram.com/p/BAhqP70zNBl/" target="_blank"><i class="fa fa-fa fa-instagram" style="float:left;"></i></a>
+				</h2>
+			
+			
+			<h3><span style="color:white;float:right;width:auto;">A product of Megatronix 2015-2016</span></h3>
+			
+		</div>	
+	</div>
+	
+	
+	
+</body>
+<script>
+	
+    $('.typeit-box').typeIt();
+  
+	
+	
+	var $post_another = $(".changer_another");
+		setInterval(function(){
+			$post_another.toggleClass("off");
+		}, 800);
+		
+	var $post = $(".changer");
+		setInterval(function(){
+			$post.toggleClass("off");
+		}, getNextRate());
+		
+	function getNextRate() {
+		return Math.floor(Math.random() * (2797 - 557 + 1)) + 500 ;
+		}
+</script>
+<script>
+  $(document).ready(function() {
+  	$('a[*|href^="#"]').on('click',function (e) {
+  		e.preventDefault();
+  	
+  		var target = $(this).attr('xlink:href');
+  		var $target = $(target);
+  	
+  		$('html, body').stop().animate({
+  			'scrollTop': $target.offset().top
+ 		}, 900, 'swing', function () {
+ 			window.location.hash = target;
+ 		});
+ 	});
+ });
+ </script>
+<script>
+
+	function mail_check(){
+		
+		var mail_name=document.getElementById('mail-name').value;
+		var mail_number=document.getElementById('mail-number').value;
+		var mail_email=document.getElementById('mail-email').value;
+		var mail_problem=document.getElementById('mail-problem').value;
+		
+		
+		if ( ( mail_name == "" ) || (mail_number == "") || (mail_email == "") || (mail_problem == "") ){
+			alert('Please fill up all the fields !');
+			return false;
+		}
+	}
+
+</script>
+
+<script>
+	var elem = document.querySelector('.m-p-g');
+	document.addEventListener('DOMContentLoaded', function() {
+		var gallery = new MaterialPhotoGallery(elem);
+	});
+</script>
+<script>
+
+	$(window).load(function(){
+           $('.loader').fadeOut("slow");
+         });
+</script>
+<script language="Javascript">
+      
+      function isNumberKey(evt)
+      {
+         var charCode = (evt.which) ? evt.which : event.keyCode
+         if (charCode > 31 && (charCode < 48 || charCode > 57)  )
+            return false;
+ 
+         return true;
+      }
+</script>      
+
+
+</html>
